@@ -36,7 +36,7 @@ def main() -> None:
         send_stats(clients, "/stats/reading", current["reading score"])
         send_stats(clients, "/stats/writing", current["writing score"])
 
-        time.sleep(1.0)
+        time.sleep(3.0)
 
 if __name__ == "__main__":
     main()
