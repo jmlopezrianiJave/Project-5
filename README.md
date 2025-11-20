@@ -124,18 +124,27 @@ If Pd or Processing runs on a different machine, change the host IP in the Pytho
    - Check that oscP5 is created with the Processing port (default 5006).
    - Run the sketch.
 
-3. Start the Python streamer
+3. Start the Python Streamer
 
-    3.1 python -m venv .venv
-    3.2 .venv\Scripts\activate
-    3.3 pip install -r requirements.txt
-   - From the project root:
+        Follow these steps from the project root:
 
-         python data_sender\db_stats_stream.py
+        ```bash
+        # 3.1 Create virtual environment
+        python -m venv .venv
 
-4. As the script iterates over the dataset:
-   - Audio in Pure Data changes in rhythm, timbre, pitch, and effects.
-   - Visuals in Processing change in color, shapes, motion, and complexity.
+        # 3.2 Activate it (Windows)
+        .venv\Scripts\activate
+
+        # 3.3 Install dependencies
+        pip install -r requirements.txt
+
+        # 3.4 Run the data streamer
+        python data_sender/db_stats_stream.py
+
+
+        4. As the script iterates over the dataset:
+        - Audio in Pure Data changes in rhythm, timbre, pitch, and effects.
+        - Visuals in Processing change in color, shapes, motion, and complexity.
 
 ---
 
