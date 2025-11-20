@@ -142,9 +142,9 @@ If Pd or Processing runs on a different machine, change the host IP in the Pytho
         python data_sender/db_stats_stream.py
 
 
-        4. As the script iterates over the dataset:
-        - Audio in Pure Data changes in rhythm, timbre, pitch, and effects.
-        - Visuals in Processing change in color, shapes, motion, and complexity.
+4. As the script iterates over the dataset:
+- Audio in Pure Data changes in rhythm, timbre, pitch, and effects.
+- Visuals in Processing change in color, shapes, motion, and complexity.
 
 ---
 
