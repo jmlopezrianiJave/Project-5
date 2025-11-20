@@ -14,7 +14,7 @@ int localCount = 0;
 void setup() {
   size(800, 600);
   frameRate(60);
-  oscP5 = new OscP5(this, 5006);
+  oscP5 = new OscP5(this, 5005);
   background(0);
 }
 
